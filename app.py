@@ -5,7 +5,7 @@ from fpdf import FPDF
 import os
 import tempfile
 
-st.title("Gerador de PDF de Ultrassonografia")
+st.title("Gerador de PDF de Ultrassonografia do Dr. Andrew Costa")
 st.write("Faça upload de até 40 imagens de ultrassom (.jpg ou .png). Elas serão organizadas automaticamente, 8 por página, em um PDF final.")
 
 uploaded_files = st.file_uploader("Upload das imagens", type=["jpg", "png"], accept_multiple_files=True)
